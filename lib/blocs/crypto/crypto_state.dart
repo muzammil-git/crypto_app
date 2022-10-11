@@ -13,9 +13,9 @@ class CryptoState extends Equatable {
   });
 
   factory CryptoState.start() => const CryptoState(
-        coins: [],
-        status: Status.initial,
-      );
+    coins: [],
+    status: Status.initial,
+  );
 
   @override
   List<Object> get props => [coins, status];

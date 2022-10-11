@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
               );
 
             case Status.error:
-              return Center(
+              return const Center(
                 child: Text(
                   "Something went wrong",
                   style: TextStyle(color: Colors.red, fontSize: 18.0),
