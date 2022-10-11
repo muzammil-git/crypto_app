@@ -5,7 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key}); 
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
               );
 
             case Status.error:
-              return const Center(
+              return Center(
                 child: Text(
                   "Something went wrong",
                   style: TextStyle(color: Colors.red, fontSize: 18.0),
